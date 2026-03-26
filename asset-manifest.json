@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.70258014.css",
+    "main.js": "/Portfolio/static/js/main.58fc20a1.js",
+    "static/js/453.39bfd144.chunk.js": "/Portfolio/static/js/453.39bfd144.chunk.js",
+    "static/media/book.png": "/Portfolio/static/media/book.077a636f7b5ede60a7c2.png",
+    "static/media/wedding.png": "/Portfolio/static/media/wedding.8bb0c1f240d9b2bdbcd2.png",
+    "static/media/audiobook.png": "/Portfolio/static/media/audiobook.40e811406ae9f16ade65.png",
+    "static/media/PlugStation.png": "/Portfolio/static/media/PlugStation.eeb79cb391011e6794c9.png",
+    "static/media/tff.png": "/Portfolio/static/media/tff.eca6fa3f41c6d0bb69c6.png",
+    "static/media/transcript.jpg": "/Portfolio/static/media/transcript.5f5112d0a653fd369f30.jpg",
+    "static/media/bg-light.png": "/Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/ITCARE.png": "/Portfolio/static/media/ITCARE.c05d03c46e7232a1da60.png",
+    "static/media/S__5005334_0.jpg": "/Portfolio/static/media/S__5005334_0.995e28126ed0a8b8cbd2.jpg",
+    "static/media/S__5005328.jpg": "/Portfolio/static/media/S__5005328.fe35aca58d5a66f02273.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.70258014.css.map": "/Portfolio/static/css/main.70258014.css.map",
+    "main.58fc20a1.js.map": "/Portfolio/static/js/main.58fc20a1.js.map",
+    "453.39bfd144.chunk.js.map": "/Portfolio/static/js/453.39bfd144.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70258014.css",
+    "static/js/main.58fc20a1.js"
+  ]
+}
