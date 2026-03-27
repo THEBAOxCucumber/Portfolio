@@ -118,53 +118,61 @@
     }
 
     @media (max-width:768px) {
-        .about-section h1 {
-            font-size: 4em !important;
-            text-align: left;
-        }
+        .mobile_social_font h1 {
+    font-size: 2.2em;      /* 🔥 ปรับเล็กลง */
+    line-height: 1.2;
+    text-align: center;
+    word-break: break-word; /* กันล้น */
+  }
 
-        .about-section p {
-            text-align: left;
-        }
+  .about-section {
+    display: flex;
+    flex-direction: column;   /* 🔥 เปลี่ยนจาก block → column */
+    align-items: center;      /* 🔥 จัดกลาง */
+    text-align: center;
+    padding: 120px 20px 40px;
+  }
 
-        .container {
-            display: initial;
-        }
+  /* 🔥 รูป */
+  .image-wrapper {
+    width: 160px !important;
+    height: 160px !important;
+    margin-bottom: 20px;
+  }
 
-        .social_icons {
-            display: none !important;
-        }
+  /* ❌ ลบทิ้ง */
+  .about-section .image-wrapper {
+    width: 100%;
+    padding-left: 0;
+  }
 
-        .mobile_social_icons {
-            padding-top: 10px;
-            display: flex !important;
-            flex-direction: row;
-            gap: 10px;
-            color: white;
-    
-            svg {
-                font-size: 1.8em;
-            }
-        }
+  /* 🔥 content */
+  .about-section .content {
+    width: 100%;
+    padding: 0;
+  }
 
-        .about-section {
-            padding-top: 150px;
-            display: block;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
+  /* 🔥 text */
+  .about-section h1 {
+    font-size: 2.5em !important;
+    text-align: center;
+  }
 
-        .about-section .content {
-            width: 90%;
-            padding-left: 5%;
-            padding-right: 5%;
-            padding-bottom: 5%;
-        }
+  .about-section p {
+    text-align: center;
+  }
 
-        .about-section .image-wrapper {
-            padding-left: 5%;
-            width: 100%;
-        }
-    }
+  /* 🔥 icon */
+  .social_icons {
+    display: none !important;
+  }
+
+  .mobile_social_icons {
+    display: flex !important;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
 }
 
