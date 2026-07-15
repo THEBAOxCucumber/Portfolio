@@ -16,6 +16,23 @@ function Experience() {
       <div className="items-container">
         <h1>Experience</h1>
         <VerticalTimeline>
+           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid white' }}
+            date="2026"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3>Punpromotion</h3>
+            <h4>Tester</h4>
+            <p>Created test scripts from software requirements</p>
+            <p>Performed UI and API testing</p>
+            <p>Identified and reported software defects</p>
+            <p>Verified bug fixes and system functionality</p>
+
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
@@ -36,6 +53,8 @@ function Experience() {
 </div>
 
           </VerticalTimelineElement>
+
+         
 
         </VerticalTimeline>
 

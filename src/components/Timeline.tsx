@@ -43,7 +43,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
 
-            <h3 className="vertical-timeline-element-title">Nakhon Pathom Vocational Colleg</h3>
+            <h3 className="vertical-timeline-element-title">Nakhon Pathom Vocational Collge</h3>
             <h4 className="vertical-timeline-element-subtitle">Business Computer</h4>
             <p>
               Academic Category: Commerce , Business Computer

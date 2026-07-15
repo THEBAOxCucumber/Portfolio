@@ -17,7 +17,9 @@ function Main() {
             <a href="https://github.com/THEBAOxCucumber" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             
           </div>
+          <div className="mobile_social_font">
             <h1>Piriyaporn Yamsamruen</h1>
+            </div>
             <p>Full Stack Portfolio </p>
 
           <div className="mobile_social_icons">
